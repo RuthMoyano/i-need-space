@@ -1,12 +1,12 @@
 * {
     font-family: 'Roboto', sans-serif;
-    color: #03045e;
+    color: white;
 }
 
 body {
     margin: 0;
     padding: 0;
-    background-color: #caf0f8;
+    background-color: black;
 }
 
 h1, h2 {
@@ -25,7 +25,8 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #00b4d8;
+    background-image: url("https://images.theconversation.com/files/229282/original/file-20180725-194146-11h4vrh.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop");
+    background-size: cover;
     padding: 0 24px;
 }
 
@@ -41,7 +42,7 @@ h2 {
     margin: 12px 24px;
     line-height: 24px;
     text-align: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .row div {
@@ -78,4 +79,20 @@ button {
 
 button:hover {
     box-shadow: 0 0 20px #caf0f8;
+}
+
+#carousels {
+    height: 300px;
+    color:white;
+}
+
+.mapInfo {
+    color: white;
+    height: 250px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    background-image: url("https://www.sciencenewsforstudents.org/wp-content/uploads/2020/12/1440_Orphaned_Planet_feat-1030x580.jpg")
 }
